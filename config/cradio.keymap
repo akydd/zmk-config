@@ -109,7 +109,7 @@
           &bootloader  &trans     &trans     &trans    &bt BT_SEL 1    &trans     &kp LEFT           &kp DOWN      &kp UP         &kp RIGHT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────--------┼───────--───  ┼─────────-─  ┼───────-------───┤
         //│          │          │          │ CLEAR BT │PROFILE 2 │   │          │                  │              │             │                 │
-            &trans     &trans     &trans    &bt BT_CLR &bt BT_SEL 2    &kp PG_UP  &kp LC(LA(LARW))  &kp LC(DOWN)   &kp LC(UP)    &kp LC(LA(RIGHT)
+            &trans     &trans     &trans    &bt BT_CLR &bt BT_SEL 2    &kp PG_UP  &kp LC(LA(LEFT))  &kp LC(DOWN)   &kp LC(UP)    &kp LC(LA(RIGHT)
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────-──-----|--─────--───  ┴─────────-─  ┴─-------─────────╯
                                              &trans     &trans         &trans     &kp ESC
         //                                 ╰──────────┴──────────╯   ╰──────────┴─────────--------─╯
