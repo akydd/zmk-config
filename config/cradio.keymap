@@ -34,16 +34,16 @@
     combos {
         compatible = "zmk,combos";
         COMBO(enter, &kp ENTER, 31 32)
-        COMBO(lbrc, &kp LBRC, 11, 12)
-        COMBO(rbrc, &kp RBRC, 17, 18)
-        COMBO(lpar, &kp LPAR, 12, 13)
-        COMBO(rpar, &kp RPAR, 16, 17)
-        COMBO(lbkt, &kp LBKT, 2, 3)
-        COMBO(rbkt, &kp RBKT, 6, 7)
-        COMBO(colon, &kp COLON, 11, 13)
-        COMBO(equal, &kp EQUAL, 16, 18)
-        COMBO(unds, &kp UNDER, 13, 16)
-        COMBO(caps_word, &caps_word, 3, 6)
+        COMBO(lbrc, &kp LBRC, 11 12)
+        COMBO(rbrc, &kp RBRC, 17 18)
+        COMBO(lpar, &kp LPAR, 12 13)
+        COMBO(rpar, &kp RPAR, 16 17)
+        COMBO(lbkt, &kp LBKT, 2 3)
+        COMBO(rbkt, &kp RBKT, 6 7)
+        COMBO(colon, &kp COLON, 11 13)
+        COMBO(equal, &kp EQUAL, 16 18)
+        COMBO(unds, &kp UNDER, 13 16)
+        COMBO(caps_word, &caps_word, 3 6)
     };
 
     keymap {
