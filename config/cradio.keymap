@@ -11,7 +11,7 @@
 
 #define DEFAULT 0
 #define SYMBOL  1
-#define NUMBER  2
+#define NUM 2
 #define NAV     3
 
 // Combo macros
@@ -58,8 +58,8 @@
             &kp Q      &kp W      &kp F      &kp P              &kp B          &kp J      &kp L            &kp U      &kp Y      &kp SQT  
             &kp A      HRML(R,    S,         T)                 &kp G          &kp M      HRMR(N,          E,         I)         &kp O
             &kp Z      &kp X      &kp C     &ht LCMD D          &kp V          &kp K      &ht RCMD H       &kp COMMA  &kp DOT    &kp FSLH
-                                            &lt NUMBER SPACE    &kp TAB        &kp BSPC   &sl SYMBOL
-                                            // &lt NUMBER SPACE    &lt NAV TAB    &kp BSPC   &sl SYMBOL 
+                                            &lt NUM SPACE    &kp TAB        &kp BSPC   &sl SYMBOL
+                                            // &lt NUM SPACE    &lt NAV TAB    &kp BSPC   &sl SYMBOL 
             >;
         };
 
@@ -72,7 +72,7 @@
             >;
         };
 
-        NUMBER {
+        NUM {
             bindings = <
             &kp F1    &kp F2     &kp F3     &kp F4     &kp F5         &kp F8    &kp F9     &kp F10    &kp F11    &kp F12
             &kp N1    &kp N2     &kp N3     &kp N4     &kp K6         &kp F7    &kp N7     &kp N8     &kp N9     &kp N0
